@@ -9,6 +9,7 @@ object ApplicationBuild extends Build {
 
   val appDependencies = Seq(
     jdbc,
+    anorm,
     "postgresql" % "postgresql" % "8.4-702.jdbc4"
   )
 
